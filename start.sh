@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  gh repo clone alappu280/File-To-Link
+  gh repo clone MAJORTG2/File-To-Link
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /File-To-Link
